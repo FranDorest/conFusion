@@ -106,11 +106,46 @@
                         </div>
                     </div>
                     <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-3 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-2">
+                            <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="+34">
+                        </div>
+                        <div class="col-7 col-md-7">
+                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="555123123">
+                        </div>
+                    </div>
+                    <div class="form-group row">
                         <label for="email" class="col-md-3 col-form-label">Mail</label>
                         <div class="col-md-9">
                             <input type="text" class="form-control" id="mail" name="mail" placeholder="example@123abc.com">
                         </div>
                     </div>
+                    <div class="form-group row align-items-center" >
+                        <div class="col-7 col-md-6 offset-md-3 ">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="approve" id="approve" value=""></input>
+                                <label class="form-check-label" for="approve"><strong>contacten conmigo.</strong></label>
+                            </div>
+                        </div>
+                        <div class="col-5 col-md-3">
+                            <select class="form-control">
+                                <option>Tel.</option>
+                                <option>Mail</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row" >
+                        <label for="feedback" class="col-12 col-md-3 col-form-label">Feedback</label>
+                        <div class="col-12 col-md-9">
+                            <div class="form-text">
+                                <textarea type="text" class="form-control" id="message" placeholder="mensaje" rows="6"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-9 offset-md-3 text-right"> <!--alinea el contenido a la derecha (por lo que sea)-->
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
                 </form>
             </div>
              <div class="col-12 col-md">
